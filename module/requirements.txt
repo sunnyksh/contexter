@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+python-multipart
+faster-whisper
+sherpa-onnx
+langchain-ollama
+langchain-google-genai
+soxr
+soundfile
+numpy

@@ -1,0 +1,45 @@
+version: '3.8'
+
+services:
+  # Ollama 서비스 (LLM 모델 실행)
+  ollama:
+    image: ollama/ollama:latest
+    container_name: stt_ollama
+    ports:
+      - "11434:11434"  # Ollama API 포트
+    volumes:
+      - ollama_data:/root/.ollama  # 모델 캐시 저장
+    environment:
+      - OLLAMA_HOST=0.0.0.0:11434
+    networks:
+      - stt_network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:11434/api/tags"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # STT API 서비스
+  stt-api:
+    build: .
+    container_name: stt_api_server
+    ports:
+      - "8000:8000"  # FastAPI 포트
+    depends_on:
+      ollama:
+        condition: service_healthy
+    environment:
+      - OLLAMA_HOST=http://ollama:11434
+    volumes:
+      - ./result:/app/module/result  # 결과 파일 저장
+      - ./uploads:/app/module/uploads  # 업로드 파일 저장
+    networks:
+      - stt_network
+    command: uvicorn stt_api:app --host 0.0.0.0 --port 8000
+
+volumes:
+  ollama_data:
+
+networks:
+  stt_network:
+    driver: bridge

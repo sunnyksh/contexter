@@ -1,0 +1,29 @@
+**블록체인 인터뷰 녹취록**
+
+**화자 1:** 안녕하세요, 오늘은 블록체인의 세계를 explored 할게요. 블록체인은 어떤 것일까요?
+
+**화자 2:** 블록체인은 디지털 정보를 안전하고 transparent하게 관리하는 기술입니다. 예를 들어, Bitcoin과 Ethereum 같은 크립토貨는 블록체인에 저장됩니다.
+
+**화자 1:** thats interesting! 블록체인의 원리는 어떤 것일까요?
+
+**화자 2:** 블록체인은 디지털 정보를 안전하고 transparent하게 관리하는 기술입니다. 예를 들어, Bitcoin과 Ethereum 같은 크립토貨는 블록체인에 저장됩니다.
+
+**화자 1:** thats right! 블록체인의 특징은 무엇일까요?
+
+**화자 2:** 블록체인은 immutable(변경할 수 없는)한 ledger를 제공합니다. 이 mean이, 블록체인의 정보는 한 번 lưuirse가면 never change happens.
+
+**화자 1:** thats fascinating! 블록체인은 어떤 용도로 사용될 수 있을까요?
+
+**화자 2:** 블록체인은 다양한 용도로 사용됩니다. 예를 들어, 투자, 상표 관리, 의사증명, 그리고 자산 관리와 같은 용도로 사용됩니다.
+
+**화자 1:** thats great! 블록체인의 future는 어떤 것일까요?
+
+**화자 2:** 블록체인의 future는 많은 가능성이 있습니다. 예를 들어, 블록체인은 자산 관리, 투자, 그리고 상표 관리와 같은 용도로 더 많이 사용될 수 있습니다.
+
+**화자 1:** thats exciting! 블록체인에 대해 더 biết고 싶으신가요?
+
+**화자 2:** yes, definitely! 블록체인은 디지털 정보를 안전하고 transparent하게 관리하는 기술입니다. 예를 들어, Bitcoin과 Ethereum 같은 크립토貨는 블록체인에 저장됩니다.
+
+**화자 1:** thats great! thank you for sharing your knowledge with me today!
+
+**화자 2:** thank you too!

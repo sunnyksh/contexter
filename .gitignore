@@ -1,0 +1,28 @@
+# Python
+module/stt_llm.py
+module/stt.py
+
+
+data/
+logs/
+models/
+result/
+
+
+
+
+
+
+
+
+
+
+# 대용량 파일 (필요하면 git-lfs 사용)
+*.tar.bz2
+
+# Env files
+.env
+.env.*
+# Documentation (portfolio에는 main README만 사용)
+QUICKSTART.md
+README_DOCKER.md
