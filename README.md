@@ -11,8 +11,7 @@ Tech: Python, Whisper, Sherpa-ONNX, LangChain, Docker, Ollama / Gemini
 - LangChain 기반 상황 인지형 텍스트 후처리(교정·요약), 로컬/클라우드 LLM 지원
 - Docker로 패키징하여 재현 가능한 배포 환경 제공
 
-포트폴리오 참고사항
-- REST API 구성은 이 저장소에서 제거되었습니다. 핵심 파이프라인은 [module/stt_lanch.py](module/stt_lanch.py)에 있습니다.
+
 - 비밀키는 `.env`로 관리하세요. 예시 파일은 `.env.example`에 있습니다. 실제 키는 절대 커밋하지 마세요.
 
 간단 실행 예 (로컬)
